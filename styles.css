@@ -1,0 +1,265 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0077cc;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+header nav ul a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav ul a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url(https://img.freepik.com/premium-photo/artificial-intelligence-robot-finger-touching-human-finger-generative-ai_1002555-2586.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.about {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.about h1 {
+    font-size: 2rem;
+    color: #0077cc;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.about img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.tech {
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.tech-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.tech-item {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.tech-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.tech h1 {
+    font-size: 2rem;
+    color: #0077cc;
+    margin-bottom: 2rem;
+}
+
+.tech ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tech ul li {
+    width: 300px;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.tech ul li h2 {
+    font-size: 1.2rem;
+    color: #0077cc;
+    margin-bottom: 0.5rem;
+}
+
+.tech ul li p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    color: #0077cc;
+    margin-bottom: 1.5rem;
+}
+
+.contact-form {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #0077cc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #005fa3;
+}
+
+.contact-info {
+    margin-top: 2rem;
+}
+
+.contact-info h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    font-size: 1rem;
+    color: #0077cc;
+    margin: 0.5rem 0;
+}
+
+.contact-info ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #0077cc;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .tech-item {
+        width: 100%;
+    }
+
+    .tech ul {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .contact h1 {
+        font-size: 1.75rem;
+    }
+}
